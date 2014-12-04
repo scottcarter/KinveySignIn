@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008E4C82737F4060E2489099 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 969639A703FB74ED8A1F12AD /* libPods.a */; };
+		A71036761A25234700C1B03F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A71036751A25234700C1B03F /* main.m */; };
+		A71036791A25234700C1B03F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A71036781A25234700C1B03F /* AppDelegate.m */; };
+		A710367C1A25234700C1B03F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A710367B1A25234700C1B03F /* MainViewController.m */; };
+		A710367F1A25234700C1B03F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A710367D1A25234700C1B03F /* Main.storyboard */; };
+		A71036811A25234700C1B03F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71036801A25234700C1B03F /* Images.xcassets */; };
+		A71036841A25234700C1B03F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A71036821A25234700C1B03F /* LaunchScreen.xib */; };
+		A71036901A25234800C1B03F /* KinveySignInDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A710368F1A25234800C1B03F /* KinveySignInDemoTests.m */; };
+		A710369A1A25283900C1B03F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71036991A25283900C1B03F /* Accounts.framework */; };
+		A710369C1A25284100C1B03F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A710369B1A25284100C1B03F /* CoreGraphics.framework */; };
+		A710369E1A25284900C1B03F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A710369D1A25284900C1B03F /* CoreLocation.framework */; };
+		A71036A01A25285000C1B03F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A710369F1A25285000C1B03F /* Foundation.framework */; };
+		A71036A21A25285900C1B03F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71036A11A25285900C1B03F /* MobileCoreServices.framework */; };
+		A71036A41A25286400C1B03F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71036A31A25286400C1B03F /* Security.framework */; };
+		A71036A61A25286C00C1B03F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71036A51A25286C00C1B03F /* Social.framework */; };
+		A71036A81A25287500C1B03F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71036A71A25287500C1B03F /* SystemConfiguration.framework */; };
+		A71036AA1A25289600C1B03F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A71036A91A25289600C1B03F /* libsqlite3.dylib */; };
+		A71036AC1A2528B100C1B03F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71036AB1A2528B100C1B03F /* UIKit.framework */; };
+		A71036B01A252CC400C1B03F /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71036AF1A252CC400C1B03F /* SignInViewController.m */; };
+		A71036B31A2607C800C1B03F /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = A71036B21A2607C800C1B03F /* Project.m */; };
+		A71036B61A261B6D00C1B03F /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71036B51A261B6D00C1B03F /* NavigationController.m */; };
+		A71036C21A26D6FF00C1B03F /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71036C11A26D6FF00C1B03F /* LaunchViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A710368A1A25234800C1B03F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A71036681A25234700C1B03F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A710366F1A25234700C1B03F;
+			remoteInfo = KinveySignInDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49A3846BAF5C4929D57F7369 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		969639A703FB74ED8A1F12AD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71036701A25234700C1B03F /* KinveySignInDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinveySignInDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71036741A25234700C1B03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A71036751A25234700C1B03F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A71036771A25234700C1B03F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A71036781A25234700C1B03F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A710367A1A25234700C1B03F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A710367B1A25234700C1B03F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A710367E1A25234700C1B03F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A71036801A25234700C1B03F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A71036831A25234700C1B03F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A71036891A25234800C1B03F /* KinveySignInDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinveySignInDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A710368E1A25234800C1B03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A710368F1A25234800C1B03F /* KinveySignInDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KinveySignInDemoTests.m; sourceTree = "<group>"; };
+		A71036991A25283900C1B03F /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		A710369B1A25284100C1B03F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A710369D1A25284900C1B03F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A710369F1A25285000C1B03F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A71036A11A25285900C1B03F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A71036A31A25286400C1B03F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A71036A51A25286C00C1B03F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A71036A71A25287500C1B03F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A71036A91A25289600C1B03F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A71036AB1A2528B100C1B03F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A71036AD1A252A2400C1B03F /* KinveySignInDemo.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinveySignInDemo.pch; sourceTree = "<group>"; };
+		A71036AE1A252CC400C1B03F /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		A71036AF1A252CC400C1B03F /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		A71036B11A2607BD00C1B03F /* Project.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		A71036B21A2607C800C1B03F /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		A71036B41A261B6D00C1B03F /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		A71036B51A261B6D00C1B03F /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		A71036C01A26D6FF00C1B03F /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		A71036C11A26D6FF00C1B03F /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		B308D9D5D19E63F18F812B55 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A710366D1A25234700C1B03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71036AC1A2528B100C1B03F /* UIKit.framework in Frameworks */,
+				A71036AA1A25289600C1B03F /* libsqlite3.dylib in Frameworks */,
+				A71036A81A25287500C1B03F /* SystemConfiguration.framework in Frameworks */,
+				A71036A61A25286C00C1B03F /* Social.framework in Frameworks */,
+				A71036A41A25286400C1B03F /* Security.framework in Frameworks */,
+				A71036A21A25285900C1B03F /* MobileCoreServices.framework in Frameworks */,
+				A71036A01A25285000C1B03F /* Foundation.framework in Frameworks */,
+				A710369E1A25284900C1B03F /* CoreLocation.framework in Frameworks */,
+				A710369C1A25284100C1B03F /* CoreGraphics.framework in Frameworks */,
+				A710369A1A25283900C1B03F /* Accounts.framework in Frameworks */,
+				008E4C82737F4060E2489099 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71036861A25234800C1B03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CB7F1222BFDCDD5F20451E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A71036AB1A2528B100C1B03F /* UIKit.framework */,
+				A71036A91A25289600C1B03F /* libsqlite3.dylib */,
+				A71036A71A25287500C1B03F /* SystemConfiguration.framework */,
+				A71036A51A25286C00C1B03F /* Social.framework */,
+				A71036A31A25286400C1B03F /* Security.framework */,
+				A71036A11A25285900C1B03F /* MobileCoreServices.framework */,
+				A710369F1A25285000C1B03F /* Foundation.framework */,
+				A710369D1A25284900C1B03F /* CoreLocation.framework */,
+				A710369B1A25284100C1B03F /* CoreGraphics.framework */,
+				A71036991A25283900C1B03F /* Accounts.framework */,
+				969639A703FB74ED8A1F12AD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D0AE300CEE22C229D6175F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B308D9D5D19E63F18F812B55 /* Pods.debug.xcconfig */,
+				49A3846BAF5C4929D57F7369 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A71036671A25234700C1B03F = {
+			isa = PBXGroup;
+			children = (
+				A71036721A25234700C1B03F /* KinveySignInDemo */,
+				A710368C1A25234800C1B03F /* KinveySignInDemoTests */,
+				A71036711A25234700C1B03F /* Products */,
+				9D0AE300CEE22C229D6175F6 /* Pods */,
+				8CB7F1222BFDCDD5F20451E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A71036711A25234700C1B03F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A71036701A25234700C1B03F /* KinveySignInDemo.app */,
+				A71036891A25234800C1B03F /* KinveySignInDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A71036721A25234700C1B03F /* KinveySignInDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A71036771A25234700C1B03F /* AppDelegate.h */,
+				A71036781A25234700C1B03F /* AppDelegate.m */,
+				A71036801A25234700C1B03F /* Images.xcassets */,
+				A71036821A25234700C1B03F /* LaunchScreen.xib */,
+				A71036C01A26D6FF00C1B03F /* LaunchViewController.h */,
+				A71036C11A26D6FF00C1B03F /* LaunchViewController.m */,
+				A710367D1A25234700C1B03F /* Main.storyboard */,
+				A710367A1A25234700C1B03F /* MainViewController.h */,
+				A710367B1A25234700C1B03F /* MainViewController.m */,
+				A71036B41A261B6D00C1B03F /* NavigationController.h */,
+				A71036B51A261B6D00C1B03F /* NavigationController.m */,
+				A71036B11A2607BD00C1B03F /* Project.h */,
+				A71036B21A2607C800C1B03F /* Project.m */,
+				A71036AE1A252CC400C1B03F /* SignInViewController.h */,
+				A71036AF1A252CC400C1B03F /* SignInViewController.m */,
+				A71036731A25234700C1B03F /* Supporting Files */,
+			);
+			path = KinveySignInDemo;
+			sourceTree = "<group>";
+		};
+		A71036731A25234700C1B03F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A71036741A25234700C1B03F /* Info.plist */,
+				A71036751A25234700C1B03F /* main.m */,
+				A71036AD1A252A2400C1B03F /* KinveySignInDemo.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A710368C1A25234800C1B03F /* KinveySignInDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A710368F1A25234800C1B03F /* KinveySignInDemoTests.m */,
+				A710368D1A25234800C1B03F /* Supporting Files */,
+			);
+			path = KinveySignInDemoTests;
+			sourceTree = "<group>";
+		};
+		A710368D1A25234800C1B03F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A710368E1A25234800C1B03F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A710366F1A25234700C1B03F /* KinveySignInDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71036931A25234800C1B03F /* Build configuration list for PBXNativeTarget "KinveySignInDemo" */;
+			buildPhases = (
+				9F47835ADA4EAAEC706E7377 /* Check Pods Manifest.lock */,
+				A710366C1A25234700C1B03F /* Sources */,
+				A710366D1A25234700C1B03F /* Frameworks */,
+				A710366E1A25234700C1B03F /* Resources */,
+				6EF78E1A428BB8D06BE00E71 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KinveySignInDemo;
+			productName = KinveySignInDemo;
+			productReference = A71036701A25234700C1B03F /* KinveySignInDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A71036881A25234800C1B03F /* KinveySignInDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71036961A25234800C1B03F /* Build configuration list for PBXNativeTarget "KinveySignInDemoTests" */;
+			buildPhases = (
+				A71036851A25234800C1B03F /* Sources */,
+				A71036861A25234800C1B03F /* Frameworks */,
+				A71036871A25234800C1B03F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A710368B1A25234800C1B03F /* PBXTargetDependency */,
+			);
+			name = KinveySignInDemoTests;
+			productName = KinveySignInDemoTests;
+			productReference = A71036891A25234800C1B03F /* KinveySignInDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A71036681A25234700C1B03F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Scott Carter";
+				TargetAttributes = {
+					A710366F1A25234700C1B03F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					A71036881A25234800C1B03F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A710366F1A25234700C1B03F;
+					};
+				};
+			};
+			buildConfigurationList = A710366B1A25234700C1B03F /* Build configuration list for PBXProject "KinveySignInDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A71036671A25234700C1B03F;
+			productRefGroup = A71036711A25234700C1B03F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A710366F1A25234700C1B03F /* KinveySignInDemo */,
+				A71036881A25234800C1B03F /* KinveySignInDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A710366E1A25234700C1B03F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A710367F1A25234700C1B03F /* Main.storyboard in Resources */,
+				A71036841A25234700C1B03F /* LaunchScreen.xib in Resources */,
+				A71036811A25234700C1B03F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71036871A25234800C1B03F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EF78E1A428BB8D06BE00E71 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F47835ADA4EAAEC706E7377 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A710366C1A25234700C1B03F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71036B01A252CC400C1B03F /* SignInViewController.m in Sources */,
+				A710367C1A25234700C1B03F /* MainViewController.m in Sources */,
+				A71036791A25234700C1B03F /* AppDelegate.m in Sources */,
+				A71036C21A26D6FF00C1B03F /* LaunchViewController.m in Sources */,
+				A71036B61A261B6D00C1B03F /* NavigationController.m in Sources */,
+				A71036B31A2607C800C1B03F /* Project.m in Sources */,
+				A71036761A25234700C1B03F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71036851A25234800C1B03F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71036901A25234800C1B03F /* KinveySignInDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A710368B1A25234800C1B03F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A710366F1A25234700C1B03F /* KinveySignInDemo */;
+			targetProxy = A710368A1A25234800C1B03F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A710367D1A25234700C1B03F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A710367E1A25234700C1B03F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A71036821A25234700C1B03F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A71036831A25234700C1B03F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A71036911A25234800C1B03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A71036921A25234800C1B03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A71036941A25234800C1B03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B308D9D5D19E63F18F812B55 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = KinveySignInDemo/KinveySignInDemo.pch;
+				INFOPLIST_FILE = KinveySignInDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A71036951A25234800C1B03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A3846BAF5C4929D57F7369 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = KinveySignInDemo/KinveySignInDemo.pch;
+				INFOPLIST_FILE = KinveySignInDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A71036971A25234800C1B03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KinveySignInDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KinveySignInDemo.app/KinveySignInDemo";
+			};
+			name = Debug;
+		};
+		A71036981A25234800C1B03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KinveySignInDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KinveySignInDemo.app/KinveySignInDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A710366B1A25234700C1B03F /* Build configuration list for PBXProject "KinveySignInDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71036911A25234800C1B03F /* Debug */,
+				A71036921A25234800C1B03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71036931A25234800C1B03F /* Build configuration list for PBXNativeTarget "KinveySignInDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71036941A25234800C1B03F /* Debug */,
+				A71036951A25234800C1B03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71036961A25234800C1B03F /* Build configuration list for PBXNativeTarget "KinveySignInDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71036971A25234800C1B03F /* Debug */,
+				A71036981A25234800C1B03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A71036681A25234700C1B03F /* Project object */;
+}

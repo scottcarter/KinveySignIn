@@ -1,0 +1,19 @@
+//
+//  KinveySignInDemo.pch
+//  KinveySignInDemo
+//
+//  Created by Scott Carter on 11/25/14.
+//  Copyright (c) 2014 Scott Carter. All rights reserved.
+//
+
+#ifndef KinveySignInDemo_KinveySignInDemo_pch
+#define KinveySignInDemo_KinveySignInDemo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import <KinveyKit/KinveyKit.h>
+
+
+#endif

@@ -1,0 +1,23 @@
+PODS:
+  - Bolts (1.1.3)
+  - Facebook-iOS-SDK (3.20.0):
+    - Bolts (~> 1.0)
+  - KinveyKit (1.27.1)
+  - KinveySignIn (0.0.1):
+    - Facebook-iOS-SDK (= 3.20.0)
+    - KinveyKit (= 1.27.1)
+
+DEPENDENCIES:
+  - KinveySignIn (from `~/Dropbox/Developer_iOS8/KinveySignIn`)
+
+EXTERNAL SOURCES:
+  KinveySignIn:
+    :path: ~/Dropbox/Developer_iOS8/KinveySignIn
+
+SPEC CHECKSUMS:
+  Bolts: 3db0a875235e0c9042b013af13af0f00f79b102c
+  Facebook-iOS-SDK: 5854404b4b651f612a8ef79ca06d766858f4cb8e
+  KinveyKit: be6150c8efcd7617ab08a6ee971990eb1e245d3d
+  KinveySignIn: 087c8ea40836234bd2dd6f64768493827c6a826f
+
+COCOAPODS: 0.35.0
